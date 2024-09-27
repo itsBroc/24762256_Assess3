@@ -18,6 +18,7 @@ public class Movement_Manager : MonoBehaviour
         new Vector3(-22.5f, 28.5f, 0),
         new Vector3(-37.5f, 28.5f, 0)
     };
+    private Vector3 lastPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +44,7 @@ public class Movement_Manager : MonoBehaviour
         {
             MovePacStudent();
         }
+            PlayMoveAnimation();
     }
 
     private void MovePacStudent()
@@ -50,18 +52,21 @@ public class Movement_Manager : MonoBehaviour
         currIndex = (currIndex + 1) % points.Length;
         Vector3 nextPos = points[currIndex];
         tweener.AddTween(pacStudent.transform, pacStudent.transform.position, nextPos, speed);
+        lastPosition = pacStudent.transform.position;
 
-        PlayMoveAnimation(nextPos);
+        moveAudioSource.Play();
+
     }
 
-    private void PlayMoveAnimation(Vector3 nextPos)
+    private void PlayMoveAnimation()
     {
+        Vector3 currentPosition = pacStudent.transform.position;
+        Vector3 direction = (currentPosition - lastPosition).normalized;
+
         pacStudentAnimator.SetBool("PacStudent_Right", false);
         pacStudentAnimator.SetBool("PacStudent_Up", false);
         pacStudentAnimator.SetBool("PacStudent_Left", false);
         pacStudentAnimator.SetBool("PacStudent_Down", false);
-
-        Vector3 direction = (nextPos - transform.position).normalized;
 
         if (direction.x > 0)
         {
@@ -79,7 +84,7 @@ public class Movement_Manager : MonoBehaviour
         {
             pacStudentAnimator.SetBool("PacStudent_Down", true);
         }
-        moveAudioSource.Play();
+        lastPosition = currentPosition;
     }
 
 }
