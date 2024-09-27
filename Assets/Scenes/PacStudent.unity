@@ -1105,6 +1105,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930644487}
+  - component: {fileID: 930644489}
+  - component: {fileID: 930644488}
   m_Layer: 0
   m_Name: Movement_Manager
   m_TagString: Untagged
@@ -1127,6 +1129,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930644488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930644486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40d41547feac93647af07b3ad9f69407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  pacStudent: {fileID: 307392}
+--- !u!114 &930644489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930644486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ed926cf4fc2e642aa8b42050130d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383975374
 GameObject:
   m_ObjectHideFlags: 0
