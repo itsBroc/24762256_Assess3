@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 3b971084c92210f4f8202f21e4148be9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8437423934977927876
+    second: Ghost_Recovery_0
+  - first:
+      213: 605338195988816211
+    second: Ghost_Recovery_1
+  - first:
+      213: 812593333991082640
+    second: Ghost_Recovery_2
+  - first:
+      213: 364394205301054933
+    second: Ghost_Recovery_3
+  - first:
+      213: -22755040140992249
+    second: Ghost_Recovery_4
+  - first:
+      213: 5500050489637786345
+    second: Ghost_Recovery_5
+  - first:
+      213: 4741130474822191903
+    second: Ghost_Recovery_6
+  - first:
+      213: -4505596933050893292
+    second: Ghost_Recovery_7
+  - first:
+      213: 2015619609388043705
+    second: Ghost_Recovery_8
+  - first:
+      213: 2337754315693381739
+    second: Ghost_Recovery_9
+  - first:
+      213: -2616555564069902568
+    second: Ghost_Recovery_10
+  - first:
+      213: -1932505174405983323
+    second: Ghost_Recovery_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Recovery_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 295
+        width: 102
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35134072af38ea80800000000000000
+      internalID: -8437423934977927876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 291
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351a3ecc1e7966800800000000000000
+      internalID: 605338195988816211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 291
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a836bf459e64b00800000000000000
+      internalID: 812593333991082640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 283
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd1e2d59969e0500800000000000000
+      internalID: 364394205301054933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 151
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701eb8b59682faff0800000000000000
+      internalID: -22755040140992249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 151
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2d291a7ca145c40800000000000000
+      internalID: 5500050489637786345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 151
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b4e891c01ebc140800000000000000
+      internalID: 4741130474822191903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 151
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c79680677e871c0800000000000000
+      internalID: -4505596933050893292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdc2e30b5be8fb10800000000000000
+      internalID: 2015619609388043705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 27
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b685a070a2f517020800000000000000
+      internalID: 2337754315693381739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 23
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817aa8cd39020bbd0800000000000000
+      internalID: -2616555564069902568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Recovery_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 19
+        width: 102
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a35de068cc5e25e0800000000000000
+      internalID: -1932505174405983323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ghost_Recovery_0: -8437423934977927876
+      Ghost_Recovery_1: 605338195988816211
+      Ghost_Recovery_10: -2616555564069902568
+      Ghost_Recovery_11: -1932505174405983323
+      Ghost_Recovery_2: 812593333991082640
+      Ghost_Recovery_3: 364394205301054933
+      Ghost_Recovery_4: -22755040140992249
+      Ghost_Recovery_5: 5500050489637786345
+      Ghost_Recovery_6: 4741130474822191903
+      Ghost_Recovery_7: -4505596933050893292
+      Ghost_Recovery_8: 2015619609388043705
+      Ghost_Recovery_9: 2337754315693381739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 290d861c8af033048b6ab0fbd4dc3e72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7975016369396980361
+    second: Ghost_Orange_Left_0
+  - first:
+      213: 5042919726121435096
+    second: Ghost_Orange_Left_1
+  - first:
+      213: 6956080901655799609
+    second: Ghost_Orange_Left_2
+  - first:
+      213: -7387076244781672610
+    second: Ghost_Orange_Left_3
+  - first:
+      213: -7155198467537206815
+    second: Ghost_Orange_Left_4
+  - first:
+      213: 2786706293028406334
+    second: Ghost_Orange_Left_5
+  - first:
+      213: 7812915020308352557
+    second: Ghost_Orange_Left_6
+  - first:
+      213: -4551081849874119562
+    second: Ghost_Orange_Left_7
+  - first:
+      213: -1141412999906447139
+    second: Ghost_Orange_Left_8
+  - first:
+      213: 3030650291093224658
+    second: Ghost_Orange_Left_9
+  - first:
+      213: -2142007376507381418
+    second: Ghost_Orange_Left_10
+  - first:
+      213: -4331008994356448347
+    second: Ghost_Orange_Left_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 295
+        width: 102
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a15df6223fcae60800000000000000
+      internalID: 7975016369396980361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 291
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df374ab5cc0cf540800000000000000
+      internalID: 5042919726121435096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 291
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937a214a9b6f88060800000000000000
+      internalID: 6956080901655799609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 283
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57df053b45db7990800000000000000
+      internalID: -7387076244781672610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 151
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1860557e0a3bc90800000000000000
+      internalID: -7155198467537206815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 151
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34cd41eb9e5ca620800000000000000
+      internalID: 2786706293028406334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 151
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e0bcdf0dc0d6c60800000000000000
+      internalID: 7812915020308352557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 151
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67486829b2f47d0c0800000000000000
+      internalID: -4551081849874119562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0309e8ce2e820f0800000000000000
+      internalID: -1141412999906447139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 27
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcbb07f1680f0a20800000000000000
+      internalID: 3030650291093224658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 23
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659d201d3af0642e0800000000000000
+      internalID: -2142007376507381418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_Orange_Left_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 19
+        width: 102
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3bc5c244a25e3c0800000000000000
+      internalID: -4331008994356448347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ghost_Orange_Left_0: 7975016369396980361
+      Ghost_Orange_Left_1: 5042919726121435096
+      Ghost_Orange_Left_10: -2142007376507381418
+      Ghost_Orange_Left_11: -4331008994356448347
+      Ghost_Orange_Left_2: 6956080901655799609
+      Ghost_Orange_Left_3: -7387076244781672610
+      Ghost_Orange_Left_4: -7155198467537206815
+      Ghost_Orange_Left_5: 2786706293028406334
+      Ghost_Orange_Left_6: 7812915020308352557
+      Ghost_Orange_Left_7: -4551081849874119562
+      Ghost_Orange_Left_8: -1141412999906447139
+      Ghost_Orange_Left_9: 3030650291093224658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

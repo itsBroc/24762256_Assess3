@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: fa277a09736c2e7429f6feeb6d24fbbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8932398742100770882
+    second: death yellow_0
+  - first:
+      213: 6042581929361138804
+    second: death yellow_1
+  - first:
+      213: -3554079003906818648
+    second: death yellow_2
+  - first:
+      213: -7153576287274198763
+    second: death yellow_3
+  - first:
+      213: -6814273745159713950
+    second: death yellow_4
+  - first:
+      213: 8437503225539069633
+    second: death yellow_5
+  - first:
+      213: 6737822930312148571
+    second: death yellow_6
+  - first:
+      213: 3088389441417222034
+    second: death yellow_7
+  - first:
+      213: 1867442125537615435
+    second: death yellow_8
+  - first:
+      213: 448855088710013278
+    second: death yellow_9
+  - first:
+      213: -801501427510060822
+    second: death yellow_10
+  - first:
+      213: -9084045727203182486
+    second: death yellow_11
+  - first:
+      213: 8691493490267296636
+    second: death yellow_12
+  - first:
+      213: -3654934971918398440
+    second: death yellow_13
+  - first:
+      213: -5299811996621281068
+    second: death yellow_14
+  - first:
+      213: -2729767364553455779
+    second: death yellow_15
+  - first:
+      213: -1068016062281246512
+    second: death yellow_16
+  - first:
+      213: -5707387444810772932
+    second: death yellow_17
+  - first:
+      213: -8436278750613799029
+    second: death yellow_18
+  - first:
+      213: 4515694553866046668
+    second: death yellow_19
+  - first:
+      213: 8340117800729544092
+    second: death yellow_20
+  - first:
+      213: 7184079279699541199
+    second: death yellow_21
+  - first:
+      213: 3317495448311570096
+    second: death yellow_22
+  - first:
+      213: 7987734720385811371
+    second: death yellow_23
+  - first:
+      213: -7025145657844907583
+    second: death yellow_24
+  - first:
+      213: 2149793306569108215
+    second: death yellow_25
+  - first:
+      213: 4742673927829926238
+    second: death yellow_26
+  - first:
+      213: 8223964174573400729
+    second: death yellow_27
+  - first:
+      213: 697749600176015485
+    second: death yellow_28
+  - first:
+      213: 1198338334727483491
+    second: death yellow_29
+  - first:
+      213: 3671927645739939070
+    second: death yellow_30
+  - first:
+      213: 1045069967986444259
+    second: death yellow_31
+  - first:
+      213: 225177024759414059
+    second: death yellow_32
+  - first:
+      213: 7654345674362038907
+    second: death yellow_33
+  - first:
+      213: 819354596043226739
+    second: death yellow_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: death yellow_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240001f745146fb70800000000000000
+      internalID: 8932398742100770882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 206
+        width: 65
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e3c1ff309bd350800000000000000
+      internalID: 6042581929361138804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 221
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adb57ce9ff5daec0800000000000000
+      internalID: -3554079003906818648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 203
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5191d5b944469bc90800000000000000
+      internalID: -7153576287274198763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b0c71e126de61a0800000000000000
+      internalID: -6814273745159713950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 119
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c60875da78081570800000000000000
+      internalID: 8437503225539069633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 104
+        width: 95
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56bcb0b14e818d50800000000000000
+      internalID: 6737822930312148571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 98
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2979dbf75d92cda20800000000000000
+      internalID: 3088389441417222034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 158
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e154318bc7ae910800000000000000
+      internalID: 1867442125537615435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 155
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51df263357aa3600800000000000000
+      internalID: 448855088710013278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_10
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 164
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae85b4eb2be70e4f0800000000000000
+      internalID: -801501427510060822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 110
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6836aa5a8cfee180800000000000000
+      internalID: -9084045727203182486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 107
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c739007a7436e9870800000000000000
+      internalID: 8691493490267296636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 107
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cc6a9f100174dc0800000000000000
+      internalID: -3654934971918398440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8e80591194376b0800000000000000
+      internalID: -5299811996621281068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 110
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57465c7b0bed1ad0800000000000000
+      internalID: -2729767364553455779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 98
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d89059cc05ad21f0800000000000000
+      internalID: -1068016062281246512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 68
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e8784ab594bc0b0800000000000000
+      internalID: -5707387444810772932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ffc737c215cea80800000000000000
+      internalID: -8436278750613799029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc0a558548faae30800000000000000
+      internalID: 4515694553866046668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 71
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c958561b3fc0eb370800000000000000
+      internalID: 8340117800729544092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc3cb0ca0af2b360800000000000000
+      internalID: 7184079279699541199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 59
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be169c888c1a0e20800000000000000
+      internalID: 3317495448311570096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 53
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba386a848622ade60800000000000000
+      internalID: 7987734720385811371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 50
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1c6c8be3ba18e90800000000000000
+      internalID: -7025145657844907583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 23
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa609a4f9995dd10800000000000000
+      internalID: 2149793306569108215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e513fc14fcc51d140800000000000000
+      internalID: 4742673927829926238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 23
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9927cf628d3612270800000000000000
+      internalID: 8223964174573400729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 32
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7889a48097eea900800000000000000
+      internalID: 697749600176015485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 26
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3603a2acd5a51a010800000000000000
+      internalID: 1198338334727483491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 26
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4f3453dbe45f230800000000000000
+      internalID: 3671927645739939070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_31
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 26
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7c24f4995d08e00800000000000000
+      internalID: 1045069967986444259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d3d5c9f4dff1300800000000000000
+      internalID: 225177024759414059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_33
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 14
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aa56c16d2b93a60800000000000000
+      internalID: 7654345674362038907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death yellow_34
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 14
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e7d3af9aeee5b00800000000000000
+      internalID: 819354596043226739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
