@@ -16,6 +16,8 @@ public class Procedural_Generater : MonoBehaviour
 
     public GameObject parentContainer;
 
+    private float tileSize = 3.0f;
+
     public int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7},
@@ -53,12 +55,16 @@ public class Procedural_Generater : MonoBehaviour
     {
         int[,] totalLevelMap = GenerateFullGrid(levelMap);
 
+        float totalWidth = totalLevelMap.GetLength(1) * tileSize;
+        float totalHeight = totalLevelMap.GetLength(0) * tileSize;
+
+        Vector3 offset = new Vector3(-totalWidth / 2 + tileSize / 2, -totalHeight / 2 + tileSize / 2 + 1.2f, 0);
 
         for (int row = 0; row < totalLevelMap.GetLength(0); row++)
         {
             for (int col = 0; col < totalLevelMap.GetLength(1); col++)
             {
-                Vector3 position = new Vector3(col, -row, 0);
+                Vector3 position = new Vector3(col * tileSize, row * tileSize, 0) + offset;
                 InstantiateTile(totalLevelMap, row, col, position);
 
             }
@@ -174,11 +180,11 @@ public class Procedural_Generater : MonoBehaviour
     {
         if (IsWall(above) && IsWall(below))
         {
-            return 0;
+            return 90;
         }
         if (IsWall(left) && IsWall(right))
         {
-            return 90;
+            return 0;
         }
         return 0;
     }
@@ -187,19 +193,19 @@ public class Procedural_Generater : MonoBehaviour
     {
         if (IsWall(left) && IsWall(above))
         {
-            return 0;
+            return 270;
         }
         if (IsWall(right) && IsWall(above))
         {
-            return -90;
+            return 0;
         }
         if (IsWall(right) && IsWall(below))
         {
-            return -180;
+            return 90;
         }
         if (IsWall(left) && IsWall(below))
         {
-            return -270;
+            return 180;
         }
         return 0;
     }
@@ -208,28 +214,27 @@ public class Procedural_Generater : MonoBehaviour
     {
         if (IsWall(left) && IsWall(right) && IsWall(above))
         {
-            return -90;
+            return 0;
         }
-        if (IsWall(left) && IsWall(right) && IsWall(above))
-        {
-            return -90;
-        }
-        if (IsWall(above) && IsWall(below) && IsWall(left))
+        if (IsWall(left) && IsWall(right) && IsWall(below))
         {
             return 180;
         }
+        if (IsWall(below) && IsWall(left))
+        {
+            return 90;
+        }
         if (IsWall(above) && IsWall(below) && IsWall(right))
         {
-            return 0;
+            return 270;
         }
         return 0;
     }
+
     bool IsWall(int tileNum)
     {
         return tileNum == 1 || tileNum == 2 || tileNum == 3 || tileNum == 4 || tileNum == 7;
     }
-
-
 
     private void ClearLevel()
     {
