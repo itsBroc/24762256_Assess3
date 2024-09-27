@@ -153,7 +153,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -946,7 +946,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death yellow_0: 8932398742100770882
+      death yellow_1: 6042581929361138804
+      death yellow_10: -801501427510060822
+      death yellow_11: -9084045727203182486
+      death yellow_12: 8691493490267296636
+      death yellow_13: -3654934971918398440
+      death yellow_14: -5299811996621281068
+      death yellow_15: -2729767364553455779
+      death yellow_16: -1068016062281246512
+      death yellow_17: -5707387444810772932
+      death yellow_18: -8436278750613799029
+      death yellow_19: 4515694553866046668
+      death yellow_2: -3554079003906818648
+      death yellow_20: 8340117800729544092
+      death yellow_21: 7184079279699541199
+      death yellow_22: 3317495448311570096
+      death yellow_23: 7987734720385811371
+      death yellow_24: -7025145657844907583
+      death yellow_25: 2149793306569108215
+      death yellow_26: 4742673927829926238
+      death yellow_27: 8223964174573400729
+      death yellow_28: 697749600176015485
+      death yellow_29: 1198338334727483491
+      death yellow_3: -7153576287274198763
+      death yellow_30: 3671927645739939070
+      death yellow_31: 1045069967986444259
+      death yellow_32: 225177024759414059
+      death yellow_33: 7654345674362038907
+      death yellow_34: 819354596043226739
+      death yellow_4: -6814273745159713950
+      death yellow_5: 8437503225539069633
+      death yellow_6: 6737822930312148571
+      death yellow_7: 3088389441417222034
+      death yellow_8: 1867442125537615435
+      death yellow_9: 448855088710013278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
