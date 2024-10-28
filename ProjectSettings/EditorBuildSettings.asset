@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PacStudent.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: a873671169f864647808fd8ad0756032
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
