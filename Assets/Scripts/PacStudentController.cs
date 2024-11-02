@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -18,6 +19,9 @@ public class PacStudentController : MonoBehaviour
     private KeyCode lastInput;
     private KeyCode currentInput;
     private Vector3 lastPosition;
+    //private int currentX = 1;
+    //private int currentY = 1;
+
 
     public int[,] levelMap =
     {
@@ -64,8 +68,10 @@ public class PacStudentController : MonoBehaviour
         {
             TryMovePacStudent();
         }
-        PlayMoveAnimation();
-    }  
+        Debug.Log(lastInput);
+
+        //PlayMoveAnimation();
+    }
 
     private void HandleKey()
     {
@@ -80,13 +86,12 @@ public class PacStudentController : MonoBehaviour
         Vector3 direction = GetDirection(lastInput);
         Vector3 positionToGetTo = pacStudent.transform.position + direction;
 
-        if (IsMoveable(positionToGetTo))
-        {
+        //if (IsMoveable(positionToGetTo))
+        //{
             currentInput = lastInput;
-            bool isEatingPellet = CheckForPellet(positionToGetTo);
-            StartMovement(positionToGetTo, isEatingPellet);
-        }
-
+            //bool isEatingPellet = CheckForPellet(positionToGetTo);
+            StartMovement(positionToGetTo);
+        //}
     }
 
     private Vector3 GetDirection(KeyCode input)
@@ -95,8 +100,8 @@ public class PacStudentController : MonoBehaviour
         {
             case KeyCode.W: return Vector3.up;
             case KeyCode.A: return Vector3.left;
-            case KeyCode.S: return Vector3.right;
-            case KeyCode.D: return Vector3.down;
+            case KeyCode.S: return Vector3.down;  
+            case KeyCode.D: return Vector3.right; 
             default: return Vector3.zero;
         }
     }
@@ -132,16 +137,30 @@ public class PacStudentController : MonoBehaviour
         return false;
     }
 
-    private void StartMovement(Vector3 positionToGetTo, bool isEatingPellet)
+    private void StartMovement(Vector3 positionToGetTo)
     {
         tweener.AddTween(pacStudent.transform, pacStudent.transform.position, positionToGetTo, moveDuration);
         lastPosition = pacStudent.transform.position;
-
-        moveAudioSource.clip = isEatingPellet ? eatPelletSound : moveSound;
-        moveAudioSource.Play();
     }
 
-    private void PlayMoveAnimation()
+    /*bool CheckValid(KeyCode input)
+    {
+        switch (input)
+        {
+            case KeyCode.W:
+                return (totalLevelMap[currentX - 1, currentY] == 0 || totalLevelMap[currentX - 1, currentY] == 5 || totalLevelMap[currentX - 1, currentY] == 6);
+            case KeyCode.A:
+                return (totalLevelMap[currentX, currentY - 1] == 0 || totalLevelMap[currentX, currentY - 1] == 5 || totalLevelMap[currentX, currentY - 1] == 6);
+            case KeyCode.S:
+                return (totalLevelMap[currentX + 1, currentY] == 0 || totalLevelMap[currentX + 1, currentY] == 5 || totalLevelMap[currentX + 1, currentY] == 6);
+            case KeyCode.D:
+                return (totalLevelMap[currentX, currentY + 1] == 0 || totalLevelMap[currentX, currentY + 1] == 5 || totalLevelMap[currentX, currentY + 1] == 6);
+            default:
+                return false;
+        }
+    }*/
+
+    /*private void PlayMoveAnimation()
     {
         Vector3 currentPosition = pacStudent.transform.position;
         Vector3 direction = (currentPosition - lastPosition).normalized;
@@ -151,24 +170,26 @@ public class PacStudentController : MonoBehaviour
         pacStudentAnimator.SetBool("PacStudent_Left", false);
         pacStudentAnimator.SetBool("PacStudent_Down", false);
 
-        if (direction.x > 0)
+        switch (currentInput)
         {
-            pacStudentAnimator.SetBool("PacStudent_Right", true);
-        }
-        else if (direction.x < 0)
-        {
-            pacStudentAnimator.SetBool("PacStudent_Left", true);
-        }
-        else if (direction.y > 0)
-        {
-            pacStudentAnimator.SetBool("PacStudent_Up", true);
-        }
-        else if (direction.y < 0)
-        {
-            pacStudentAnimator.SetBool("PacStudent_Down", true);
+            case KeyCode.W:
+                pacStudentAnimator.SetBool("PacStudent_Up", true);
+                break;
+            case KeyCode.A:
+                pacStudentAnimator.SetBool("PacStudent_Left", true);
+                break;
+            case KeyCode.S:
+                pacStudentAnimator.SetBool("PacStudent_Down", true);
+                break;
+            case KeyCode.D:
+                pacStudentAnimator.SetBool("PacStudent_Right", true);
+                break;
+            default:
+                break;
+
         }
         lastPosition = currentPosition;
-    }
+    }*/
 
     private int[,] GenerateFullGrid(int[,] levelMap)
     {
