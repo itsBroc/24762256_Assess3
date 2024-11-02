@@ -7,7 +7,7 @@ using UnityEngine;
 public class PacStudentController : MonoBehaviour
 {
     public float moveDuration = 0.5f;
-    private float tileSize = 0.1f;
+    private float tileSize = 3f;
     private Animator pacStudentAnimator;
     public GameObject pacStudent;
     private Tweener tweener;
@@ -61,7 +61,7 @@ public class PacStudentController : MonoBehaviour
 
     private void TryMovePacStudent()
     {
-        Vector3 direction = GetDirection(lastInput);
+        Vector3 direction = GetDirection(lastInput) * 3;
         Vector3 positionToGetTo = pacStudent.transform.position + direction;
 
         if (IsMoveable(direction))
@@ -70,26 +70,15 @@ public class PacStudentController : MonoBehaviour
             //bool isEatingPellet = CheckForPellet(positionToGetTo);
             StartMovement(positionToGetTo);
         }
+        else
+        {
+            direction = GetDirection(currentInput) * 3;
+            positionToGetTo = pacStudent.transform.position + direction;
 
-        if (Input.GetKey(KeyCode.W) && IsMoveable(Vector3.up))
-        {
-            currentInput = KeyCode.W;
-            StartMovement(pacStudent.transform.position + Vector3.up);
-        }
-        else if (Input.GetKey(KeyCode.A) && IsMoveable(Vector3.left))
-        {
-            currentInput = KeyCode.A;
-            StartMovement(pacStudent.transform.position + Vector3.left);
-        }
-        else if (Input.GetKey(KeyCode.S) && IsMoveable(Vector3.down))
-        {
-            currentInput = KeyCode.S;
-            StartMovement(pacStudent.transform.position + Vector3.down);
-        }
-        else if (Input.GetKey(KeyCode.D) && IsMoveable(Vector3.right))
-        {
-            currentInput = KeyCode.D;
-            StartMovement(pacStudent.transform.position + Vector3.right);
+            if (IsMoveable(direction))
+            {
+                StartMovement(positionToGetTo);
+            }
         }
     }
 
@@ -108,9 +97,11 @@ public class PacStudentController : MonoBehaviour
     private bool IsMoveable(Vector3 direction)
     {
         Vector3 rayOrigin = pacStudent.transform.position;
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, direction, tileSize);
+        Vector2 boxSize = new Vector2(2.0f, 2.0f);
 
-        if(hit.collider != null)
+        RaycastHit2D hit = Physics2D.BoxCast(rayOrigin, boxSize, 0f, direction, 2.0f);
+
+        if (hit.collider != null)
         {
             if (hit.collider.CompareTag("Obstacle"))
             {
