@@ -242,8 +242,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dcd617fdab4705f449ffa7480f88d55c, type: 3}
-  m_Resource: {fileID: 8300000, guid: dcd617fdab4705f449ffa7480f88d55c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
+  m_Resource: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -341,8 +341,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694093d98b152794599c9e625d82b5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDuration: 0.15
+  moveDuration: 0.2
   pacStudent: {fileID: 307392}
+  dirt: {fileID: 1278748808}
+  eatPelletSound: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
+  moveSound: {fileID: 8300000, guid: dcd617fdab4705f449ffa7480f88d55c, type: 3}
 --- !u!114 &307398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2603,7 +2606,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -2671,7 +2674,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.75
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3227,7 +3230,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.75, y: 0, z: 1}
+    m_Scale: {x: 0.5, y: 0, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -3425,7 +3428,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 15
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3863,8 +3866,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.9279689, b: 0.8443396, a: 1}
-        key1: {r: 0.7264151, g: 0.34728447, b: 0.01027944, a: 1}
+        key0: {r: 0.6226415, g: 0.34329423, b: 0, a: 1}
+        key1: {r: 0.9150943, g: 0.7882607, b: 0.634523, a: 1}
         key2: {r: 1, g: 0.46976995, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}

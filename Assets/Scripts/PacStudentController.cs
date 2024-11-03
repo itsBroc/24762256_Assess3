@@ -6,15 +6,16 @@ using UnityEngine;
 
 public class PacStudentController : MonoBehaviour
 {
-    public float moveDuration = 0.5f;
+    public float moveDuration;
     private float tileSize = 3f;
     private Animator pacStudentAnimator;
     public GameObject pacStudent;
     private Tweener tweener;
+    public ParticleSystem dirt;
 
     private AudioSource moveAudioSource;
-    private AudioClip eatPelletSound;
-    private AudioClip moveSound;
+    public AudioClip eatPelletSound;
+    public AudioClip moveSound;
 
 
     private KeyCode lastInput;
@@ -67,8 +68,8 @@ public class PacStudentController : MonoBehaviour
         if (IsMoveable(direction))
         {
             currentInput = lastInput;
-            //bool isEatingPellet = CheckForPellet(positionToGetTo);
-            StartMovement(positionToGetTo);
+            bool isEatingPellet = CheckForPellet(positionToGetTo);
+            StartMovement(positionToGetTo, isEatingPellet);
         }
         else
         {
@@ -77,7 +78,13 @@ public class PacStudentController : MonoBehaviour
 
             if (IsMoveable(direction))
             {
-                StartMovement(positionToGetTo);
+                bool isEatingPellet = CheckForPellet(positionToGetTo);
+                StartMovement(positionToGetTo, isEatingPellet);
+            }
+            else
+            {
+                StopAudioAndAnimation();
+                dirt.Stop();
             }
         }
     }
@@ -112,17 +119,52 @@ public class PacStudentController : MonoBehaviour
         return true;
     }
 
-    /*private bool CheckForPellet(Vector3 position)
+    private bool CheckForPellet(Vector3 position)
     {
+        Vector3 direction = (position -  pacStudent.transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(pacStudent.transform.position, direction, 0.5f);
+        //Collider2D pelletCollider = Physics2D.OverlapCircle(position, 0.2f);
+        return hit.collider != null && hit.collider.CompareTag("Pellet");
+    }
 
-    }*/
-
-    private void StartMovement(Vector3 positionToGetTo)
+    private void StartMovement(Vector3 positionToGetTo, bool isEatingPellet)
     {
         tweener.AddTween(pacStudent.transform, pacStudent.transform.position, positionToGetTo, moveDuration);
         lastPosition = pacStudent.transform.position;
+
+        dirt.Play();
+
+        if (isEatingPellet)
+        {
+            if(moveAudioSource.clip != eatPelletSound || !moveAudioSource.isPlaying)
+            {
+                moveAudioSource.clip = eatPelletSound;
+                moveAudioSource.Play();
+            }
+        }
+        else
+        {
+            if (moveAudioSource.clip != moveSound || !moveAudioSource.isPlaying)
+            {
+                moveAudioSource.clip = moveSound;
+                moveAudioSource.Play();
+            }
+        }
     }
 
+    private void StopAudioAndAnimation()
+    {
+        if (moveAudioSource.isPlaying)
+        {
+            moveAudioSource.Stop();
+        }
+
+        pacStudentAnimator.SetBool("PacStudent_Right", false);
+        pacStudentAnimator.SetBool("PacStudent_Up", false);
+        pacStudentAnimator.SetBool("PacStudent_Left", false);
+        pacStudentAnimator.SetBool("PacStudent_Down", false);
+
+    }
 
 
     private void PlayMoveAnimation()
