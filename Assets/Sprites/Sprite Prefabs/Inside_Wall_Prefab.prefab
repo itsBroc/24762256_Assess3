@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8657768026822358255}
   - component: {fileID: 1240614980596749284}
   - component: {fileID: 2095818475486251269}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Inside_Wall_Prefab
   m_TagString: Obstacle
   m_Icon: {fileID: 0}

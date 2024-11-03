@@ -245,7 +245,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
   m_Resource: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -341,9 +341,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694093d98b152794599c9e625d82b5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDuration: 0.2
+  moveDuration: 0.25
   pacStudent: {fileID: 307392}
   dirt: {fileID: 1278748808}
+  wallLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  pelletLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
   eatPelletSound: {fileID: 8300000, guid: 0c6885ecc3a4d884b9d6c827540204a2, type: 3}
   moveSound: {fileID: 8300000, guid: dcd617fdab4705f449ffa7480f88d55c, type: 3}
 --- !u!114 &307398

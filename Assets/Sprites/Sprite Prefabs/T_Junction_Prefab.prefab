@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1937691319556090364}
   - component: {fileID: 3439636607426846528}
   - component: {fileID: 8330984828575576958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: T_Junction_Prefab
   m_TagString: Obstacle
   m_Icon: {fileID: 0}

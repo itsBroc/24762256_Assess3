@@ -13,6 +13,9 @@ public class PacStudentController : MonoBehaviour
     private Tweener tweener;
     public ParticleSystem dirt;
 
+    [SerializeField] private LayerMask wallLayerMask;
+    [SerializeField] private LayerMask pelletLayerMask;
+
     private AudioSource moveAudioSource;
     public AudioClip eatPelletSound;
     public AudioClip moveSound;
@@ -106,7 +109,7 @@ public class PacStudentController : MonoBehaviour
         Vector3 rayOrigin = pacStudent.transform.position;
         Vector2 boxSize = new Vector2(2.0f, 2.0f);
 
-        RaycastHit2D hit = Physics2D.BoxCast(rayOrigin, boxSize, 0f, direction, 2.0f);
+        RaycastHit2D hit = Physics2D.BoxCast(rayOrigin, boxSize, 0f, direction, 2.0f, wallLayerMask);
 
         if (hit.collider != null)
         {
@@ -122,7 +125,7 @@ public class PacStudentController : MonoBehaviour
     private bool CheckForPellet(Vector3 position)
     {
         Vector3 direction = (position -  pacStudent.transform.position).normalized;
-        RaycastHit2D hit = Physics2D.Raycast(pacStudent.transform.position, direction, 0.5f);
+        RaycastHit2D hit = Physics2D.Raycast(pacStudent.transform.position, direction, 0.8f, pelletLayerMask);
         //Collider2D pelletCollider = Physics2D.OverlapCircle(position, 0.2f);
         return hit.collider != null && hit.collider.CompareTag("Pellet");
     }
@@ -136,12 +139,9 @@ public class PacStudentController : MonoBehaviour
 
         if (isEatingPellet)
         {
-            if(moveAudioSource.clip != eatPelletSound || !moveAudioSource.isPlaying)
-            {
-                moveAudioSource.clip = eatPelletSound;
-                moveAudioSource.Play();
-            }
+            moveAudioSource.PlayOneShot(eatPelletSound);
         }
+
         else
         {
             if (moveAudioSource.clip != moveSound || !moveAudioSource.isPlaying)

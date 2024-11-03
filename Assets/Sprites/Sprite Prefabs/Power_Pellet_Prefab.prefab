@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2513841295127820217}
   - component: {fileID: 285414985028561329}
   - component: {fileID: -6917309967441489165}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Power_Pellet_Prefab
   m_TagString: Pellet
   m_Icon: {fileID: 0}
