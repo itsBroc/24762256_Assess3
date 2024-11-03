@@ -24,9 +24,6 @@ public class PacStudentController : MonoBehaviour
     private KeyCode lastInput;
     private KeyCode currentInput;
     private Vector3 lastPosition;
-    //private int currentX = 1;
-    //private int currentY = 1;
-
 
 
     // Start is called before the first frame update
@@ -45,6 +42,7 @@ public class PacStudentController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         HandleKey();
 
         if (tweener != null && tweener.IsTweenComplete())
@@ -53,6 +51,7 @@ public class PacStudentController : MonoBehaviour
         }
 
         PlayMoveAnimation();
+
     }
 
     private void HandleKey()
