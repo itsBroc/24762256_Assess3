@@ -7,7 +7,6 @@ using UnityEngine;
 public class PacStudentController : MonoBehaviour
 {
     public float moveDuration;
-    private float tileSize = 3f;
     private Animator pacStudentAnimator;
     public GameObject pacStudent;
     private Tweener tweener;
@@ -20,11 +19,9 @@ public class PacStudentController : MonoBehaviour
     public AudioClip eatPelletSound;
     public AudioClip moveSound;
 
-
     private KeyCode lastInput;
     private KeyCode currentInput;
     private Vector3 lastPosition;
-
 
     // Start is called before the first frame update
     void Start()
@@ -125,7 +122,6 @@ public class PacStudentController : MonoBehaviour
     {
         Vector3 direction = (position -  pacStudent.transform.position).normalized;
         RaycastHit2D hit = Physics2D.Raycast(pacStudent.transform.position, direction, 0.8f, pelletLayerMask);
-        //Collider2D pelletCollider = Physics2D.OverlapCircle(position, 0.2f);
         return hit.collider != null && hit.collider.CompareTag("Pellet");
     }
 
